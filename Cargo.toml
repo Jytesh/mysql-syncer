@@ -1,0 +1,14 @@
+[package]
+name = "sql-sync"
+version = "0.1.0"
+authors = ["Jytesh <44925963+Jytesh@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dialoguer = "0.8.0"
+mysql = "20.1.0"
+serde = "1.0.125"
+serde_derive = "1.0.125"
+toml = "0.5.8"
