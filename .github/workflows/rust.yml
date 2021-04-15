@@ -16,7 +16,7 @@ jobs:
             artifact_name: sql-sync
             asset_name: mysql-sync-linux-amd64
           - os: windows-latest
-            artifact_name: mysql-sync.exe
+            artifact_name: mysql-sync
             asset_name: sql-sync-windows-amd64
           - os: macos-latest
             artifact_name: sql-sync
