@@ -14,13 +14,13 @@ jobs:
         include:
           - os: ubuntu-latest
             artifact_name: sql-sync
-            asset_name: mysql-sync-linux-amd64
+            asset_name: mysql-sync-linux
           - os: windows-latest
-            artifact_name: mysql-sync
-            asset_name: sql-sync-windows-amd64
+            artifact_name: mysql-sync.exe
+            asset_name: sql-sync-windows.exe
           - os: macos-latest
             artifact_name: sql-sync
-            asset_name: mysql-sync-macos-amd64
+            asset_name: mysql-sync-macos
 
     steps:
     - uses: actions/checkout@v2
