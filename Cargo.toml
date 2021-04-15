@@ -1,5 +1,5 @@
 [package]
-name = "sql-sync"
+name = "mysql-syncer"
 version = "0.1.0"
 authors = ["Jytesh <44925963+Jytesh@users.noreply.github.com>"]
 edition = "2018"

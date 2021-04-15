@@ -465,6 +465,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "mysql-syncer"
+version = "0.1.0"
+dependencies = [
+ "dialoguer",
+ "mysql",
+ "serde",
+ "serde_derive",
+ "toml",
+]
+
+[[package]]
 name = "mysql_common"
 version = "0.24.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -905,17 +916,6 @@ dependencies = [
  "cfg-if 1.0.0",
  "libc",
  "winapi",
-]
-
-[[package]]
-name = "sql-sync"
-version = "0.1.0"
-dependencies = [
- "dialoguer",
- "mysql",
- "serde",
- "serde_derive",
- "toml",
 ]
 
 [[package]]
